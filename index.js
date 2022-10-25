@@ -74,4 +74,4 @@ app.listen(port, () => {
 
 // Setup the statebus!
 bus.honk = 1                // Print handy debugging output
-bus.libs.file_store()       // Persist state onto disk
+// bus.libs.file_store()       // Persist state onto disk
